@@ -5,7 +5,6 @@
     "main": "js/src/shc-validator.js",
     "scripts": {
         "build": "tsc",
-        "prepare": "npm run build",
         "fetch-examples": "ts-node --files src/fetch-examples.ts",
         "fetch-profiles": "ts-node --files src/fetch-profiles.ts",
         "validate-example": "ts-node --files src/shc-validator.ts --path testdata/valid_key.json --type jwkset --loglevel info",
