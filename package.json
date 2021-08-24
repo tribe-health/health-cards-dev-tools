@@ -16,6 +16,9 @@
         "lint": "eslint --config .eslintrc.json --ext .ts ./src ./tests",
         "prune-fhir-schema": "ts-node --files src/prune-fhir-schema.ts"
     },
+    "bin": {
+        "shc-validator": "js/src/shc-validator.js"
+    },
     "author": "",
     "license": "MIT",
     "dependencies": {
@@ -38,9 +41,7 @@
         "pngjs": "^6.0.0",
         "qrcode": "^1.4.4",
         "semver": "^7.3.5",
-        "svg2img": "^0.9.1"
-    },
-    "devDependencies": {
+        "svg2img": "^0.9.1",
         "@types/bmp-js": "^0.1.0",
         "@types/gm": "^1.18.9",
         "@types/jest": "^26.0.22",
